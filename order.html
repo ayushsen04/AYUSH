@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Shop Online Order</title>
+    <link rel="stylesheet" href="ordercss.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+          
+            <div class="logo">
+            <img src="2logo.png" alt="bunbox logo Logo">
+            </div>
+            <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="menu2.html">Menu</a></li>
+              <li><a href="#reservations">Reservations</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="order.html">online order </a></li>
+             
+            </ul>
+            </nav>
+          </header>
+           <br>
+            <h1> " Craft Your Perfect Burger: Order Now!"</h1>
+        </header>
+        <br>
+        
+        <!-- Customer Details Section -->
+        <section class="customer-details">
+            <h2>Customer Details</h2>
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <input type="tel" id="phone" placeholder="Your Phone Number">
+                <input type="text" id="address" placeholder="Delivery Address">
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu">
+            <h2>Menu</h2>
+            <div class="items">
+                <div class="item" onclick="changeColor(this)">Cheeseburger - $5</div>
+                <div class="item" onclick="changeColor(this)">veg crisper Burger - $6</div>
+                <div class="item" onclick="changeColor(this)">Veggie Burger - $4</div>
+                <div class="item" onclick="changeColor(this)">Double Cheeseburger - $7</div>
+                <div class="item" onclick="changeColor(this)">Chicken Burger - $5</div>
+                <div class="item" onclick="changeColor(this)">Spicy bbq Burger - $6</div>
+                <div class="item" onclick="changeColor(this)">Fish Burger - $5</div>
+                <div class="item" onclick="changeColor(this)">Mushroom Burger - $4</div>
+                <div class="item" onclick="changeColor(this)">paneer makhni burger - $5</div>
+                <div class="item" onclick="changeColor(this)"> McWrap - $4</div>
+                <div class="item" onclick="changeColor(this)">momos - $6</div>
+                <div class="item" onclick="changeColor(this)">fries - $6</div>
+                <div class="item" onclick="changeColor(this)">combos - $6</div>
+                <div class="item" onclick="changeColor(this)">Grilled Chicken Burger - $6</div>
+
+            </div>
+        </section>
+
+        <!-- Payment Section -->
+        <section class="payment">
+            <h2>Payment</h2>
+            <select id="payment-method">
+                <option value="credit-card">Credit Card</option>
+                <option value="cash on delivery ">cash on delivery </option>
+                <option value="paytm">paytm</option>
+                <option value="google pay">google pay</option>
+                <option value="phonepe">phonepe</option>
+            </select>
+            <button id="submit-order">Submit Order</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

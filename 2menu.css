@@ -1,0 +1,89 @@
+
+header {
+    background-color: #070e16;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 100px;
+    margin-left:50px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000;
+  }
+  body {
+    background-color: #070e16;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: crimson;
+}
+
+.menu-item {
+    display: flex;
+    background-color: #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+  
+}
+.menu-item :hover{ 
+    color:  crimson ;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.item-details p {
+    margin: 5px 0;
+}
+
+.combo-offer {
+    font-style: italic;
+    color: #ccc;
+}
